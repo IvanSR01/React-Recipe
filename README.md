@@ -1,0 +1,7 @@
+# React-Recipe
+
+FRONT - NPM RUN DEV
+BACK - NPM START 
+
+CREATE DATEBASE
+
