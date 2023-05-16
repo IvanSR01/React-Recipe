@@ -1,0 +1,44 @@
+$accent: #00cdc3;
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+  border-bottom: 5px solid $accent;
+  height: 200px;
+  color: #fff;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    p {
+      font-size: 42px;
+    }
+    img {
+      height: 50px;
+    }
+  }
+  .links {
+    display: flex;
+    gap: 30px;
+    button {
+      color: $accent;
+      padding: 20px 30px;
+      font-size: 30px;
+      background-color: transparent;
+      border: 2px solid $accent;
+      border-radius: 20px;
+      transition: background-color 0.5s;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: $accent;
+      color: #000;
+    }
+    .active {
+      background-color: $accent;
+      color: #000;
+    }
+  }
+}

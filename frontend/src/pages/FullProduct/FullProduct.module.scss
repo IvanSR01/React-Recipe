@@ -1,0 +1,42 @@
+.wrapper{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1000px;
+	.content{
+		background-color: #fff;
+		border-radius: 20px;
+		width: 1600px;
+		padding: 30px;
+
+		h2{
+			font-size: 40px;
+			margin-bottom: 30px;
+		}
+		.viewCount {
+			height: 50px;
+		}
+		header{
+			display: flex;
+			justify-content: center;
+			font-size: 40px;
+			gap: 25px;
+		}
+		.text {
+			display: flex;
+			gap: 60px;
+			p{
+				width: 900px;
+				font-size: 30px;
+			}
+		}
+		.img{
+			img{
+				height: 500px;
+				width: 550px;
+			}
+		}
+	}
+
+}

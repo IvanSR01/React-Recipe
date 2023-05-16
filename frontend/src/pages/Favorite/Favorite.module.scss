@@ -1,0 +1,17 @@
+.wrapper{
+	padding: 80px 500px;
+	color: #fff;
+	.h2{
+		font-size: 60px;
+	}
+	.NotItem{
+		font-size: 80px;
+		display: flex;
+		justify-content: center;
+		height: 300px;
+		align-items: center;
+	}
+	.items{
+		display: flex;
+	}
+}

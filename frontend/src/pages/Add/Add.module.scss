@@ -1,0 +1,78 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  .editor {
+    margin: 30px -30px;
+    padding: 30px;
+    font-size: 20px;
+    outline: none;
+    color: #525252;
+
+
+    button {
+      font-size: 20px;
+      margin-right: 20px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    :global {
+      .cm-s-easymde {
+        border: 0;
+        font-size: 22px;
+      }
+      .editor-toolbar {
+        border: 0;
+        background-color: rgb(0 0 0 / 2%);
+      }
+    }
+  }
+
+  .content {
+    background-color: #fff;
+    box-sizing: border-box;
+    min-height: 700px;
+    width: 1500px;
+    padding: 40px;
+    .button {
+      padding: 15px;
+      font-size: 20px;
+      background-color: transparent;
+      border: 1px solid #1e1e1e;
+      cursor: pointer;
+      transition: background-color 0.5s;
+      margin-bottom: 20px;
+    }
+    .button:hover {
+      background-color: #1e1e1e;
+      color: #fff;
+    }
+    input {
+      padding: 30px;
+      font-size: 20px;
+      outline: none;
+      color: #525252;
+    }
+    .title {
+      height: 80px;
+      width: 1350px;
+      font-size: 44px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      .public {
+        background-color: #1e1e1e;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+      .public:hover {
+        background-color: transparent;
+        color: #1e1e1e;
+        border: 1px solid #1e1e1e;
+      }
+    }
+  }
+}
